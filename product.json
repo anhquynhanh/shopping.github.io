@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Sâu rang",
+        "price": 35000,
+        "image": "pics/product1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cá tuyết",
+        "price": 35000,
+        "image": "pics/product2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Hoa khô",
+        "price": 20000,
+        "image": "pics/product3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bánh bi sữa",
+        "price": 30000,
+        "image": "pics/product4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bánh gấu sữa",
+        "price": 30000,
+        "image": "pics/product5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hoa quả sấy",
+        "price": 22000,
+        "image": "pics/product6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Bò cuộn",
+        "price": 30000,
+        "image": "pics/product7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Cốm dẹt",
+        "price": 80000,
+        "image": "pics/product8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Đồ ăn trộn",
+        "price": 30000,
+        "image": "pics/product9.jpg"
+    }
+]
