@@ -6,7 +6,7 @@ let close = document.querySelector('.close')
 iconCart.addEventListener('click', () => {
     if(cart.style.right == '-100%') {
         cart.style.right = '0'
-        container.style.transform = 'translateX(-400px)'
+        container.style.transform = 'translateX(0%)'
     } else {
         cart.style.right = '-100%'
         container.style.transform = 'translateX(0)'
@@ -64,7 +64,7 @@ function addCart($idProduct) {
     } else {
         listCart[$idProduct].quantity++
     }
-    let timeSave = "epires=Thu, 31 Dec 2025 23:59:59 UTC"
+    let timeSave = "expires=Thu, 31 Dec 2025 23:59:59 UTC"
     document.cookie = "listCart = " + JSON.stringify(listCart) + "; " + timeSave + "; path =/;"
     addCartToHTML()
 }
@@ -132,24 +132,3 @@ function loadCartFromLocalStorage() {
 
 loadCartFromLocalStorage()
 addCartToHTML()
-
-const picturesLink = document.querySelector("main h1[id='#image-container']");
-const aboutLink = document.querySelector(".main-header a[href='#content-container']");
-const contactLink = document.querySelector(".main-header a[href='#main-contact']");
-const productsLink = document.querySelector(".main-header a[href='#listProduct']");
-
-picturesLink.addEventListener("click", () => {
-document.getElementById("image-container").scrollIntoView({ behavior: "smooth" });
-});
-
-aboutLink.addEventListener("click", () => {
-document.getElementById("content-container").scrollIntoView({ behavior: "smooth" });
-});
-
-contactLink.addEventListener("click", () => {
-document.getElementById("main-contact").scrollIntoView({ behavior: "smooth" });
-});
-
-productsLink.addEventListener("click", () => {
-document.getElementById("listProduct").scrollIntoView({ behavior: "smooth" });
-});
